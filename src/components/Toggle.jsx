@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ProductTab from './ProductTab';
 import CartTab from './CartTab';
 
-const Toggle = ({dataPromise}) => {
+const Toggle = ({dataPromise,carts,setcarts}) => {
 
     
 
@@ -26,14 +26,14 @@ const Toggle = ({dataPromise}) => {
                         <input onClick={()=>handleActiveTab('products')} type="radio" name="my_tabs_1" className={`tab w-40 rounded-full  ${activeTab === 'products' ? 'bg-linear-to-r from-blue-500 to-purple-600 text-white' 
                         : 'bg-gray-200'}`} aria-label="Products" />
 
-                        <input onClick={()=>handleActiveTab('cart')} type="radio" name="my_tabs_1" className={`tab w-40 rounded-full  ${activeTab === 'cart' ? 'bg-linear-to-r from-blue-500 to-purple-600 text-white' : 'bg-gray-200' }`} aria-label="Cart" defaultChecked />
+                        <input onClick={()=>handleActiveTab('cart')} type="radio" name="my_tabs_1" className={`tab w-40 rounded-full  ${activeTab === 'cart' ? 'bg-linear-to-r from-blue-500 to-purple-600 text-white' : 'bg-gray-200' }`} aria-label={`Cart(${carts.length})`} defaultChecked />
                        
                     </div>
             </div>
 
             <div>
-                {activeTab==='products' && <ProductTab dataPromise={dataPromise}></ProductTab>}
-                {activeTab==='cart' && <CartTab></CartTab>}
+                {activeTab==='products' && <ProductTab dataPromise={dataPromise}carts={carts} setcarts={setcarts}></ProductTab>}
+                {activeTab==='cart' && <CartTab carts={carts} setcarts={setcarts}></CartTab>}
             </div>
         </div>
     );
