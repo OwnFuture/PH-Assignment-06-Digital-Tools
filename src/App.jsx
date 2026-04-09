@@ -8,6 +8,8 @@ import Toggle from './components/Toggle'
 import { ToastContainer } from 'react-toastify';
 import GetStartedCard from './components/GetStartedCard'
 import PricingCard from './components/PricingCard'
+import Explore from './components/Explore'
+import Footer from './components/Footer'
 
 const dataPromise=fetch('/DigitalData.json').then(res=>res.json());
 
@@ -31,6 +33,10 @@ function App() {
      <GetStartedCard startedDataPromise={startedDataPromise}></GetStartedCard>
 
      <PricingCard pricingDataPromise={pricingDataPromise}></PricingCard>
+
+     <Explore></Explore>
+
+     <Footer></Footer>
 
      <ToastContainer />
     </>
