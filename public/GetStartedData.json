@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "image": "https://image2url.com/r2/default/images/1775748819443-93d46ebf-8f0a-4ab0-bbc1-8b80a96baa16.png",
+    "title": "Create Account",
+    "description": "Sign up for free in seconds. No credit card required to get started."
+  },
+  {
+    "id": "2",
+    "image": "https://image2url.com/r2/default/images/1775748878230-a44b4843-a0d8-4dbe-90b3-1c9eb2d3db12.png",
+    "title": "Choose Products",
+    "description": "Browse our catalog and select the tools that fit your needs."
+  },
+  {
+    "id": "3",
+    "image": "https://image2url.com/r2/default/images/1775748904427-cbe47ad9-dc63-4898-9a0f-9f10f18d3641.png",
+    "title": "Start Creating",
+    "description": "Download and start using your premium  tools immediately."
+  }
+]
