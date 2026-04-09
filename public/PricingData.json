@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Starter",
+    "price": 0,
+    "features": [
+      "Basic tools access",
+      "Limited templates",
+      "Community support"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Pro",
+    "price": 29,
+    "features": [
+      "All starter features",
+      "Premium templates",
+      "Priority support"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Enterprise",
+    "price": 99,
+    "features": [
+      "All pro features",
+      "Unlimited access",
+      "Dedicated support"
+    ]
+  }
+]

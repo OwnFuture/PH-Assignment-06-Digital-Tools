@@ -12,7 +12,7 @@ const GetStartedCard = ({startedDataPromise}) => {
             startedCards.map(startedCard => (
                 <div 
                     key={startedCard.id} 
-                    className='bg-base-300 shadow-sm p-6 sm:p-8 lg:p-10 rounded-3xl relative 
+                    className='bg-base-200 shadow-sm p-6 sm:p-8 lg:p-10 rounded-3xl relative 
                     transition-all duration-300 hover:-translate-y-3 hover:shadow-xl'
                 >
 
