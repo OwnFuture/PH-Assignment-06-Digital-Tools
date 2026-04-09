@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI assistance.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://play-lh.googleusercontent.com/1uDVlDRb_I7dYD-GPt9jIVykZOCGvYhXPhY082kH4WNVWB4jchVu9uwd_l1EtwD9U2pqZwYEGF7BndnEyK2Sgw"
+  },
+  {
+    "id": 2,
+    "name": "Social Media Kit",
+    "description": "Ready-made social media post and story templates.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["500+ templates", "Editable designs", "Instagram & Facebook support"],
+    "icon": "https://cdn-icons-png.freepik.com/256/2301/2301803.png?semt=ais_white_label"
+  },
+  {
+    "id": 3,
+    "name": "Website UI Kit",
+    "description": "Modern UI components for web projects.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["200+ components", "Figma files", "Responsive design"],
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIJbzhvIWInZ08BZDVlZohGqmP-YRWgJJejQ&s"
+  },
+  {
+    "id": 4,
+    "name": "AI Content Writer",
+    "description": "Generate blog posts and marketing copy instantly.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["SEO optimized content", "Multiple tones", "Fast generation"],
+    "icon": "https://static.vecteezy.com/system/resources/previews/060/732/816/non_2x/icon-ai-content-writing-related-to-artificial-intelligence-symbol-hand-drawn-style-vector.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Logo Maker Pro",
+    "description": "Design logos with AI-powered suggestions.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Custom logos", "High resolution export", "Brand kits"],
+    "icon": "https://img.utdstc.com/icon/e33/5c0/e335c037b519266160e89b6aea0a593b528704e7034aa0043c8903a2e79c3303:200"
+  },
+  {
+    "id": 6,
+    "name": "Productivity Planner",
+    "description": "Organize your tasks and boost productivity.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Task tracking", "Daily planner", "Reminders"],
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd96hTZtXFWUJq_PFxf8SbVYJU8s0CN47Rhw&s"
+  },
+  {
+    "id": 7,
+    "name": "Video Editing Pack",
+    "description": "Premium presets and transitions for video editing.",
+    "price": 35,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Cinematic presets", "Smooth transitions", "4K support"],
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVImzX_U-FezY-orOIfxEtl4AolfpfiY7HGQ&s"
+  },
+  {
+    "id": 8,
+    "name": "Email Marketing Suite",
+    "description": "Create and manage email campaigns بسهولة.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Email templates", "Automation", "Analytics dashboard"],
+    "icon": "https://cdn.iconscout.com/icon/free/png-256/free-email-marketing-icon-svg-download-png-2144712.png"
+  }
+]

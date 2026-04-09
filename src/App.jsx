@@ -5,6 +5,8 @@ import BannerEx from './components/BannerEx'
 import Navbar from './components/Navbar'
 import Toggle from './components/Toggle'
 
+const dataPromise=fetch('/DigitalData.json').then(res=>res.json());
+
 function App() {
  
 
@@ -16,7 +18,7 @@ function App() {
 
      <BannerEx></BannerEx>
 
-     <Toggle></Toggle>
+     <Toggle dataPromise={dataPromise}></Toggle>
     </>
   )
 }

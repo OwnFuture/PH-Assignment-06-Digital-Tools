@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import ProductTab from './ProductTab';
 import CartTab from './CartTab';
 
-const Toggle = () => {
+const Toggle = ({dataPromise}) => {
+
+    
 
     const [activeTab,setactiveTab]=useState('products');
 
@@ -30,7 +32,7 @@ const Toggle = () => {
             </div>
 
             <div>
-                {activeTab==='products' && <ProductTab></ProductTab>}
+                {activeTab==='products' && <ProductTab dataPromise={dataPromise}></ProductTab>}
                 {activeTab==='cart' && <CartTab></CartTab>}
             </div>
         </div>
